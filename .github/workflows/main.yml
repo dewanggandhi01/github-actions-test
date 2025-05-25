@@ -1,0 +1,17 @@
+name: Workflow with Email Identifier
+
+on:
+  workflow_dispatch:  # manual trigger
+  push:
+    branches: [ main ]  # trigger on push to main
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 23f2004781@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+      
+      - name: Display date
+        run: date
